@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex10</title>
+    <style>
+        .container {
+            display: flex;
+        }
+        .item:first-child {
+            order: 3;
+        }
+
+        .item:nth-child(3) {
+            order: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="item3">Item 3</div>
+      </div>
+      <p>order define a ordem em que os itens flexíveis aparecem dentro do contêiner</p>
+</body>
+</html>
